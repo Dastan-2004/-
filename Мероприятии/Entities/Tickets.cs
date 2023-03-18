@@ -6,5 +6,6 @@
         public int Number { get; set; }
         public int MembersID { get; set; }
         public Members Members { get; set; }
+        public Events Events { get; set; }
     }
 }

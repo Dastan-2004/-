@@ -9,9 +9,11 @@
         public string Location { get; set; }
         public string Description { get; set; }
         public int MembersID { get; set; }
-        public Members Members { get; set; }
+        public List<Members> Members { get; set; }
         public int ProvidersID { get; set; }
-        public Providers Providers { get; set; }
+        public List<Providers> Providers { get; set; }
+        public int TicketsID { get; set; }
+        public List<Tickets> Tickets { get; set; }
 
     }
 }
